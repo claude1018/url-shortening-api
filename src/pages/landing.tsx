@@ -17,7 +17,7 @@ function Landing() {
       <main style={{ position: 'relative' }}>
         <Intro />
         <Shorten />
-        <StyledTbody mt="5%" widthSize={width}>
+        <StyledTbody mt="7rem" widthSize={width}>
           <h2>Advanced Statistics</h2>
           <p>
             Track how your links are performing across the web with our advanced statistics
