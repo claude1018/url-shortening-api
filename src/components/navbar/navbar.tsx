@@ -15,7 +15,7 @@ function Navbar() {
   };
   const menu = width > 1020 ? <DesktopMenu /> : <MobileMenu isOpen={isOpen} />;
   return (
-    <StyledNavbar widthSize={width}>
+    <StyledNavbar widthSize={width} aria-label="header">
       <img src={logo} alt="Site logo" />
       {width > 1020 ? (
         <DesktopMenu />

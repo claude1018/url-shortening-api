@@ -6,7 +6,7 @@ import logo from '../../../public/images/logo.svg';
 function Footer() {
   const width = useInnerWidth();
   return (
-    <StyledFooter widthSize={width}>
+    <StyledFooter widthSize={width} aria-label="footer">
       <img src={logo} alt="site lo" />
       <div>
         <strong>Features</strong>
