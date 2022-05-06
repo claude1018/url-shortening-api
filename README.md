@@ -36,8 +36,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [FrontendMentor](https://your-solution-url.com)
-- Live Site URL: [Vercel](https://your-live-site-url.com)
+- Solution URL: [FrontendMentor](https://www.frontendmentor.io/solutions/url-shortening-api-landing-page-using-react-and-styledcomponents-rJ4OAzf8c)
+- Live Site URL: [Vercel](https://url-shortening-api-claude.vercel.app/)
 
 ## My process
 
