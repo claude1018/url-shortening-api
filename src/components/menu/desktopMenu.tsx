@@ -10,7 +10,7 @@ function DesktopMenu() {
           <a href="#features">Features</a>
         </li>
         <li key="top-pricing">
-          <a href="pricing">Pricing</a>
+          <a href="#pricing">Pricing</a>
         </li>
         <li key="top-resources">
           <a href="#resources">Resources</a>
