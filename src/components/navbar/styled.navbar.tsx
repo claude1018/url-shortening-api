@@ -12,7 +12,7 @@ const StyledNavbar = styled.nav<IProps>`
   padding: 2.625rem 1.375rem;
   position: relative;
   background-color: #fff;
-  padding-inline: ${(props) => breakpoint(props.widthSize, '12rem', '5rem', '1.5rem')};
+  padding-inline: ${(props) => breakpoint(props.widthSize, '10rem', '5rem', '1.5rem')};
   img {
     object-fit: contain;
   }

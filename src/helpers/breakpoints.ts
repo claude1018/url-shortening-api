@@ -6,8 +6,8 @@ function breakpoint(
   tabletVer: string | null,
   mobileVer: string
 ) {
-  if (condition > 1020) return desktopVer;
-  if (condition > 520) return tabletVer !== null ? tabletVer : mobileVer;
+  if (condition > 1260) return desktopVer;
+  if (condition > 710) return tabletVer !== null ? tabletVer : mobileVer;
   return mobileVer;
 }
 
