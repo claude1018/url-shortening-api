@@ -18,7 +18,7 @@ function DesktopMenu() {
       </ul>
       <div>
         <a href="#login">Login</a>
-        <PrimaryButton width="8rem">Sign Up</PrimaryButton>
+        <PrimaryButton customWidth="8rem">Sign Up</PrimaryButton>
       </div>
     </StyledDesktopMenu>
   );

@@ -47,7 +47,7 @@ function Shorten() {
           <input ref={input} type="text" placeholder="Shorten a link..." />
           <span>{errorMsg}</span>
         </div>
-        <PrimaryButton radius="0.3125rem" width="100%" onClick={onClick}>
+        <PrimaryButton customRadius="0.3125rem" customWidth="100%" onClick={onClick}>
           Shorten It!
         </PrimaryButton>
       </StyledShorten>

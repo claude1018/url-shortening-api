@@ -26,7 +26,7 @@ function Links(props: IProps) {
         <a ref={result} href={props.to} target="_blank">
           {props.to}
         </a>
-        <PrimaryButton radius="0.5rem" width="100%" onClick={onCopy}>
+        <PrimaryButton customRadius="0.5rem" customWidth="100%" onClick={onCopy}>
           Copy
         </PrimaryButton>
       </div>

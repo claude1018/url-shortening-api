@@ -14,7 +14,7 @@ function MobileMenu(props: IProps) {
       <a href="#resources">Resources</a>
       <div>
         <a href="#login">Login</a>
-        <PrimaryButton width="100%">Sign Up</PrimaryButton>
+        <PrimaryButton customWidth="100%">Sign Up</PrimaryButton>
       </div>
     </StyledMobileMenu>
   );
