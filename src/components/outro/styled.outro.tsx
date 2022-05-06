@@ -1,12 +1,11 @@
 import styled from 'styled-components';
 import breakpoint from '../../helpers/breakpoints';
+import bgMobile from '../../../public/images/bg-boost-mobile.svg';
+import bgDesktop from '../../../public/images/bg-boost-desktop.svg';
 
 interface IProps {
   widthSize: number;
 }
-
-const bgMobile = '/images/bg-boost-mobile.svg';
-const bgDesktop = '/images/bg-boost-desktop.svg';
 
 const StyledOutro = styled.div<IProps>`
   display: flex;

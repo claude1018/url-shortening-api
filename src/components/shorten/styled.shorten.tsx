@@ -1,8 +1,7 @@
 import styled from 'styled-components';
 import breakpoint from '../../helpers/breakpoints';
-
-const bgMobile = 'images/bg-shorten-mobile.svg';
-const bgDesktop = 'images/bg-shorten-desktop.svg';
+import bgMobile from '../../../public/images/bg-shorten-mobile.svg';
+import bgDesktop from '../../../public/images/bg-shorten-desktop.svg';
 
 interface IProps {
   widthSize: number;

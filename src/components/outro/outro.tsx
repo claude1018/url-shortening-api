@@ -3,8 +3,6 @@ import { PrimaryButton } from '../buttons';
 import useInnerWidth from '../useInnerWidth/useInnerWidth';
 import StyledOutro from './styled.outro';
 
-const outroImageMobile = '/images/bg-boost-mobile.svg';
-
 function Outro() {
   const width = useInnerWidth();
   return (
