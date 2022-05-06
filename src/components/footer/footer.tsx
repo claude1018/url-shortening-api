@@ -1,12 +1,13 @@
 import React from 'react';
 import useInnerWidth from '../useInnerWidth/useInnerWidth';
 import StyledFooter from './styled.footer';
+import logo from '../../../public/images/logo.svg';
 
 function Footer() {
   const width = useInnerWidth();
   return (
     <StyledFooter widthSize={width}>
-      <img src="/images/logo.svg" alt="site lo" />
+      <img src={logo} alt="site lo" />
       <div>
         <strong>Features</strong>
         <ul>

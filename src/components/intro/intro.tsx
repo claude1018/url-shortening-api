@@ -3,12 +3,14 @@ import { PrimaryButton } from '../buttons';
 import useInnerWidth from '../useInnerWidth/useInnerWidth';
 import StyledIntro from './styled.intro';
 
+import introImg from '../../../public/images/illustration-working.svg';
+
 function intro() {
   const width = useInnerWidth();
   return (
     <StyledIntro widthSize={width}>
       <figure>
-        <img src="/images/illustration-working.svg" alt="Working person Image" />
+        <img src={introImg} alt="Working person Image" />
       </figure>
       <div>
         <h1>More than just shorter links</h1>

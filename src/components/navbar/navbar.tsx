@@ -4,6 +4,7 @@ import StyledHamburger from '../hamburger/styled.hamburger';
 import MobileMenu from '../menu/mobileMenu';
 import useInnerWidth from '../useInnerWidth/useInnerWidth';
 import DesktopMenu from '../menu/desktopMenu';
+import logo from '../../../public/images/logo.svg';
 
 function Navbar() {
   const width = useInnerWidth();
@@ -15,7 +16,7 @@ function Navbar() {
   const menu = width > 1020 ? <DesktopMenu /> : <MobileMenu isOpen={isOpen} />;
   return (
     <StyledNavbar widthSize={width}>
-      <img src="/images/logo.svg" alt="Site logo" />
+      <img src={logo} alt="Site logo" />
       {width > 1020 ? (
         <DesktopMenu />
       ) : (

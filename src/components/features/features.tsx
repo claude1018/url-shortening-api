@@ -2,6 +2,9 @@ import React from 'react';
 import useInnerWidth from '../useInnerWidth/useInnerWidth';
 import StyledFeature from './styled.features';
 import Grid from './styled.features.grid';
+import iconBrand from '../../../public/images/icon-brand-recognition.svg';
+import iconDetailed from '../../../public/images/icon-detailed-records.svg';
+import iconCustomizable from '../../../public/images/icon-fully-customizable.svg';
 
 function Features() {
   const width = useInnerWidth();
@@ -14,7 +17,7 @@ function Features() {
       <Grid widthSize={width}>
         <StyledFeature widthSize={width} tail={true}>
           <figure>
-            <img src="/images/icon-brand-recognition.svg" alt="icon-brand-recognition.svg" />
+            <img src={iconBrand} alt="icon-brand-recognition.svg" />
           </figure>
           <h2>Brand Recognition</h2>
           <p>
@@ -25,7 +28,7 @@ function Features() {
         </StyledFeature>
         <StyledFeature widthSize={width} tail={true} move={move.secondChild}>
           <figure>
-            <img src="/images/icon-detailed-records.svg" alt="icon-detailed-records.svg" />
+            <img src={iconDetailed} alt="icon-detailed-records.svg" />
           </figure>
           <h2>Detailed Records</h2>
           <p>
@@ -35,7 +38,7 @@ function Features() {
         </StyledFeature>
         <StyledFeature widthSize={width} move={move.thirdChild}>
           <figure>
-            <img src="/images/icon-fully-customizable.svg" alt="icon-fully-customizable.svg" />
+            <img src={iconCustomizable} alt="icon-fully-customizable.svg" />
           </figure>
           <h2>Fully Customizable</h2>
           <p>

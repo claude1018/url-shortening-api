@@ -14,7 +14,7 @@ module.exports = {
   output: {
     filename: `app/js/[name]${prod ? '.[contenthash].' : '.'}bundle.js`,
     path: path.resolve(__dirname, 'build'),
-    assetModuleFilename: `app/images/[name]${!prod ? '.[hash].' : '.'}[ext]`
+    assetModuleFilename: 'app/images/[name]-[hash][ext][query]'
   },
   optimization: {
     minimizer: [`...`, new CssMinimizerPlugin()]
@@ -32,6 +32,10 @@ module.exports = {
       {
         test: /\.css$/,
         use: [MiniCssExtractPlugin.loader, 'css-loader']
+      },
+      {
+        test: /\.(svg|png|jpe?g)$/,
+        type: 'asset/resource'
       }
     ]
   },

@@ -35,7 +35,7 @@ const StyledIntro = styled.div<IProps>`
   }
   h1 {
     font-size: clamp(2.5rem, 4vw + 1rem, 4.5rem);
-    line-height: clamp(3rem, 4vw + 1rem, 5.75rem);
+    line-height: clamp(3rem, 4vw + 1rem, 7rem);
     letter-spacing: ${(props) => breakpoint(props.widthSize, '1.5px', null, '0')};
     color: hsl(260, 8%, 14%);
     margin-bottom: 1.5625rem;
